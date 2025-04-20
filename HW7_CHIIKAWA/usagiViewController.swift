@@ -12,18 +12,14 @@ class usagiViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        //烏薩奇gif
+        let usagiView = UIImageView(frame: CGRect(x: 450, y: 100, width: 282, height: 282))
+        view.addSubview(usagiView)
+        let animatedImage = UIImage.animatedImageNamed("usagi2-", duration: 1)
+        usagiView.image = animatedImage
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
+    
 
 }

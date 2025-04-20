@@ -12,18 +12,16 @@ class chiiViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        //吉依gif
+        let chiiView = UIImageView(frame: CGRect(x: 160, y: 100, width: 500, height: 504))
+        view.addSubview(chiiView)
+        let animatedImage = UIImage.animatedImageNamed("chii3-", duration: 1)
+        chiiView.image = animatedImage
+        
+        
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
+    
 
 }

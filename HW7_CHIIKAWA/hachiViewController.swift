@@ -12,18 +12,14 @@ class hachiViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        //小八gif
+        let hachiView = UIImageView(frame: CGRect(x: 160, y: 145, width: 260, height: 260))
+        view.addSubview(hachiView)
+        let animatedImage = UIImage.animatedImageNamed("hachi2-", duration: 1)
+        hachiView.image = animatedImage
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
+    
 
 }

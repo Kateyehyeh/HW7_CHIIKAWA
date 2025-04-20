@@ -1,24 +1,155 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="4DN-NV-La4">
+    <device id="retina6_3" orientation="landscape" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HW7_CHIIKAWA" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="874" height="402"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CHIIKAWA" translatesAutoresizingMaskIntoConstraints="NO" id="Btg-oJ-gW4">
+                                <rect key="frame" x="0.0" y="0.0" width="874" height="402"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="usagi" translatesAutoresizingMaskIntoConstraints="NO" id="XhO-2S-Fts">
+                                <rect key="frame" x="159" y="312" width="67" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="chii" translatesAutoresizingMaskIntoConstraints="NO" id="d7h-kC-5QU">
+                                <rect key="frame" x="408" y="318" width="69" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hachi" translatesAutoresizingMaskIntoConstraints="NO" id="fji-ho-Ecp">
+                                <rect key="frame" x="633" y="318" width="72" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="jpbluename" translatesAutoresizingMaskIntoConstraints="NO" id="6sK-2F-fmh">
+                                <rect key="frame" x="673" y="15" width="165" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aLm-xx-COK">
+                                <rect key="frame" x="0.0" y="0.0" width="874" height="409"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="a3V-Ev-AUm"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1584.4393592677345" y="-46.268656716417908"/>
+        </scene>
+        <!--Chii View Controller-->
+        <scene sceneID="iI8-QC-bOo">
+            <objects>
+                <viewController storyboardIdentifier="ChiiVC" id="BUD-yi-4JA" customClass="chiiViewController" customModule="HW7_CHIIKAWA" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pjY-2C-sxW">
+                        <rect key="frame" x="0.0" y="0.0" width="874" height="402"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="forest" translatesAutoresizingMaskIntoConstraints="NO" id="FjI-0B-l5F">
+                                <rect key="frame" x="0.0" y="0.0" width="874" height="402"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="NSw-aG-vRv"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="XtO-TY-HAH"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="show" id="LfT-eU-zxl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bqY-m9-YbD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1043.4782608695652" y="1074.6268656716418"/>
+        </scene>
+        <!--Hachi View Controller-->
+        <scene sceneID="dhW-1i-NVA">
+            <objects>
+                <viewController storyboardIdentifier="HachiVC" id="I7n-zv-uJ6" customClass="hachiViewController" customModule="HW7_CHIIKAWA" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2Me-Ju-ieu">
+                        <rect key="frame" x="0.0" y="0.0" width="874" height="402"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="forest" translatesAutoresizingMaskIntoConstraints="NO" id="0tK-nR-0uY">
+                                <rect key="frame" x="0.0" y="0.0" width="874" height="402"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="VLj-ch-NHV"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Wnw-b1-zgd"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aVH-qW-R9x" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1756" y="1075"/>
+        </scene>
+        <!--Usagi View Controller-->
+        <scene sceneID="dhj-aW-ck5">
+            <objects>
+                <viewController storyboardIdentifier="UsagiVC" id="iFV-9I-yyI" customClass="usagiViewController" customModule="HW7_CHIIKAWA" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="p3V-Sn-Lq4">
+                        <rect key="frame" x="0.0" y="0.0" width="874" height="402"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="forest" translatesAutoresizingMaskIntoConstraints="NO" id="0RK-wg-06K">
+                                <rect key="frame" x="0.0" y="0.0" width="874" height="402"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="lp4-Ml-N05"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="M2U-EA-LE9"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cuT-QA-qFZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="300" y="1074.6268656716418"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Kfr-Vk-Sgu">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="4DN-NV-La4" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="cbg-2q-cXY">
+                        <rect key="frame" x="0.0" y="0.0" width="874" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="AVv-1Q-Mvh"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zqc-n6-4X6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="659" y="-46"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="LfT-eU-zxl"/>
+    </inferredMetricsTieBreakers>
+    <resources>
+        <image name="CHIIKAWA" width="810" height="308"/>
+        <image name="chii" width="376" height="421"/>
+        <image name="forest" width="1792" height="1024"/>
+        <image name="hachi" width="369" height="432"/>
+        <image name="jpbluename" width="839" height="297"/>
+        <image name="usagi" width="358" height="515"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>
